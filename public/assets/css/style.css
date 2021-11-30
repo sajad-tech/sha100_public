@@ -1,13 +1,13 @@
-/*--------------------- Copyright (c) 2018 ----------------------- 
-[Master Stylesheet] 
-Project: Miraculous - Online Music Store Html Template 
-Version: 1.0.0 
+/*--------------------- Copyright (c) 2018 -----------------------
+[Master Stylesheet]
+Project: Miraculous - Online Music Store Html Template
+Version: 1.0.0
 Author: Kamleshyadav
- ------------------------------------------------------------------- 
-[Table of contents] 
-1. Body 
-2. Normal Css 
-3. Loader Css 
+ -------------------------------------------------------------------
+[Table of contents]
+1. Body
+2. Normal Css
+3. Loader Css
 4. Nav Css / .ms_sidemenu_wrapper
 5. Header Css / .ms_header
 6. Banner Css / .ms-banner
@@ -28,11 +28,11 @@ Author: Kamleshyadav
 21.Purchase Page Css / .ms_free_download.ms_purchase_wrapper
 22.History Page Css / .ms_top_artist
 23.AddToPlaylist Page Css / .ms_top_artist
-24.Modal Css Start 
+24.Modal Css Start
 25.Edit Profile Page Css / .ms_profile_wrapper
-26.Plans Css / .ms_account_wrapper 
+26.Plans Css / .ms_account_wrapper
 27.Upload Page Css / .ms_upload_wrapper
-28.Language Popup Css 
+28.Language Popup Css
 29.Blog Page Css / .ms_blog_wrapper
 30.Blog Single Page Css / .ms_blog_single_wrapper
 31.Sidebar Css / .ms_sidebar
@@ -218,7 +218,7 @@ select.form-control:not([size]):not([multiple]) {
 .lang:hover{
 	color: #ff4847;
 
-	
+
 }
 
 .cont{
@@ -243,7 +243,7 @@ select.form-control:not([size]):not([multiple]) {
  	align-items: center;
 	color: white;
 	font-weight: 300;
-	
+
 }
 
 .playM{
@@ -272,7 +272,7 @@ select.form-control:not([size]):not([multiple]) {
 .icoPlay:hover{
 	color: #53e0ff;
 	zoom: 1.6 !important;
-	
+
 }
 
 .over{
@@ -333,7 +333,7 @@ select.form-control:not([size]):not([multiple]) {
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	min-width: 100%; 
+	min-width: 100%;
 	min-height: 100%;
 }
 
@@ -453,6 +453,7 @@ select.form-control:not([size]):not([multiple]) {
 .titde{
 	font-size: 18px;
 	padding: 5px;
+    text-align: center;
 }
 
 .mfooter{
@@ -470,6 +471,14 @@ select.form-control:not([size]):not([multiple]) {
 .logoo{
 	width: 80px;
 	margin-left: 20px;
+}
+
+.shatxt{
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    letter-spacing: 6px;
 }
 
 /* endMyStyle */
@@ -1137,7 +1146,7 @@ ul.ms_lang_box:after {
 	text-align: center;
     max-width: 100%;
     width: 100%;
-    max-height: 300px;
+    max-height: 350px;
 }
 .ms_banner_text {
 	width: 100%;
@@ -1193,7 +1202,7 @@ ul.ms_lang_box:after {
 	color: #ff4847;
 }
 .ms_heading h1:after {
-	
+
 }
 .ms_rcnt_box {
 	text-align: center;
@@ -1301,7 +1310,7 @@ ul.ms_lang_box:after {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	
+
 	z-index: 10;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
@@ -4761,9 +4770,6 @@ h2.widget-title:after {
 	.ms_profile .ms_top_btn .ms_btn {
 		margin-top: 6px;
 	}
-	.ms_profile .ms_top_right .ms_top_lang:after {
-		display: none;
-	}
 	.ms_admin_name:before {
 		display: none;
 	}
@@ -4822,12 +4828,13 @@ h2.widget-title:after {
 	}
 }
 @media(max-width:1600px) {
+    .ms_banner_img{
+        max-height: 300px;
+    }
 	.ms_weekly_wrapper.ms_free_music .weekly_right {
 		right: 0;
 	}
-	.ms_top_right .ms_top_lang:after {
-		display: none;
-	}
+
 	span.ovrly_text1 a {
 		font-size: 13px;
 	}
@@ -4937,8 +4944,9 @@ h2.widget-title:after {
 	}
 	.ms_banner_img {
 		max-width: 100%;
+        max-height: 230px;
 	}
-	
+
 	.ms_banner_text h1 {
 		font-size: 29px;
 	}
@@ -5031,7 +5039,7 @@ h2.widget-title:after {
 		padding: 0px 80px 2px 140px;
 	}
 	.ms_content_wrapper {
-		margin-left: 110px;
+		margin-left: 40px;
 		margin-right: 40px;
 	}
 	.ms_weekly_wrapper .col-lg-4.col-md-12 {
@@ -5084,12 +5092,12 @@ h2.widget-title:after {
 		max-width: 25%;
 	}
 	.ms_banner_img {
-		max-width: 50%;
+        max-height: 180px;
 	}
 	.ms_banner_text h1 {
 		font-size: 27px;
 	}
-	
+
 	.ms-banner {
 		padding: 0px;
 		padding-bottom: 30px;
@@ -5299,9 +5307,7 @@ h2.widget-title:after {
 	.album_list_wrapper ul.more_option {
 		right: 80px;
 	}
-	.ms_top_right .ms_top_lang:after {
-		display: none;
-	}
+
 	.ms_cmnt_form .ms_input_group {
 		width: 35%;
 		padding-right: 23px;
@@ -5415,10 +5421,50 @@ h2.widget-title:after {
 	.ms_free_download.ms_purchase_wrapper .album_list_wrapper>ul>li>a {
 		font-size: 12px;
 	}
-	
+
 	.ms_banner_img {
 		max-width: 100%;
+        max-height: 150px;
 	}
+    .sim{
+        height: 350px !important;
+    }
+
+    .serico{
+        width:85px;
+        height: 100px;
+    }
+    .sitem{
+        width: 170px;
+    }
+    .tit{
+        font-size: 18px !important;
+        padding: 5px !important;
+    }
+    .titde{
+        font-size: 14px !important;
+        padding: 5px !important;
+    }
+
+    .linkser{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 16px;
+    }
+
+    .ms_top_search{
+        height: 30px !important;
+        margin-top: 5px !important;
+    }
+    .ms_top_search .form-control{
+        height: 30px !important;
+
+    }
+    .search_icon{
+        height: 30px !important;
+        line-height: 30px;
+    }
+
 	.jp-type-playlist {
 		width: 74%;
 		padding-bottom: 10px;
@@ -5453,14 +5499,7 @@ h2.widget-title:after {
 	.jp-type-playlist .nice-select .list {
 		bottom: 175%;
 	}
-	.ms_top_search .form-control {
-		height: 30px;
-		line-height: 47px;
-	}
-	span.search_icon {
-		height: 30px;
-		line-height: 32px;
-	}
+
 	.ms_header {
 		padding: 15px 30px 10px;
 	}
@@ -5698,9 +5737,7 @@ h2.widget-title:after {
 		-ms-transform: none;
 		-o-transform: none;
 	}
-	.ms_content_wrapper.padder_top80 {
-		padding-top: 50px !important;
-	}
+
 	.ms_nav_close i {
 		color: #fff;
 	}
@@ -5771,10 +5808,10 @@ h2.widget-title:after {
 	}
 	.ms_content_wrapper {
 		margin-left: 0;
-		padding: 0px 20px;
+		padding: 0px 0;
 		margin-right: 0px !important;
 	}
-	
+
 	.ms_weekly_wrapper {
 		padding-left: 15px;
 		padding-right: 25px;
@@ -6205,6 +6242,13 @@ h2.widget-title:after {
 	}
 }
 @media(max-width:667px) {
+    .lintxt{
+        display: none;
+    }
+    .ms_top_right{
+        padding: 0;
+        display: none;
+    }
 	.swiper-button-prev4.slider_nav_prev {
 		top: 63%;
 	}
@@ -6225,7 +6269,8 @@ h2.widget-title:after {
 		padding: 10px 30px 6px;
 	}
 	.ms_top_search {
-		max-width: 33%;
+		max-width: 76%;
+        float: left !important;
 	}
 	.ms_top_right {
 		margin-top: 0px;
@@ -6272,9 +6317,7 @@ h2.widget-title:after {
 	.ms_top_btn .ms_btn span {
 		display: none;
 	}
-	.ms_top_right .ms_top_lang {
-		display: none;
-	}
+
 	.ms_free_download .album_list_wrapper {
 		width: 262%;
 	}
@@ -6414,7 +6457,8 @@ h2.widget-title:after {
 		display: none;
 	}
 	.ms_top_search {
-		max-width: 49%;
+		max-width: 70%;
+        float: left !important;
 	}
 	.ms_top_right {
 		margin-top: 0px;
@@ -6508,10 +6552,7 @@ h2.widget-title:after {
 		font-size: 11px;
 		line-height: 19px;
 	}
-	.ms_top_search .form-control {
-		padding: 0px 15px;
-		font-size: 10px;
-	}
+
 	.ms_top_right {
 		padding-right: 40px;
 	}
@@ -6523,6 +6564,13 @@ h2.widget-title:after {
 	}
 }
 @media(max-width:414px) {
+	.loaded{
+		zoom: 0.8;
+	}
+    .ms_top_search {
+		max-width: 60%;
+        float: left !important;
+	}
 	.ms_weekly_wrapper.ms_free_music .weekly_right .ms_more_icon {
 		padding-right: 2px;
 		display: inline-block;
@@ -6553,13 +6601,7 @@ h2.widget-title:after {
 		margin-right: 0px;
 		margin-bottom: 10px;
 	}
-	.ms_top_right .ms_top_lang {
-		width: 100%;
-		text-align: center;
-	}
-	.ms_top_right .ms_top_lang:after {
-		display: none;
-	}
+
 	.ms_banner_text h1 {
 		font-size: 18px;
 		line-height: 26px;
@@ -6620,6 +6662,14 @@ h2.widget-title:after {
 	}
 }
 @media(max-width:320px) {
+
+	.logoo{
+		margin: 0 !important;
+	}
+	.loaded{
+		zoom: 0.7;
+	}
+
 	.ms_header {
 		padding: 10px 15px 6px;
 	}

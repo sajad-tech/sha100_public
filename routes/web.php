@@ -29,7 +29,7 @@ Route::get('/', function (Request $request) {
         foreach ($result as $key => $value) {
             $result[$key]->uDate = substr($result[$key]->uDate, 0, 4);
         }
-        return view('welcome', ['share' => $share, 'search'=>$result]);
+        return view('welcome', ['share' => [], 'search'=>[]]);
     }
-    return view('welcome', ['share' => $share]);
+    return view('welcome', ['share' => []]);
 });

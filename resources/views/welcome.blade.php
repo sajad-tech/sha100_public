@@ -158,7 +158,6 @@ Purchase:
     ::-webkit-scrollbar-thumb:hover {
         background: #ff4847;
     }
-
 </style>
 
 <body style="direction: rtl;">
@@ -194,12 +193,14 @@ Purchase:
 
                 <div id="logReg" class="ms_top_right">
                     <div class="ms_top_lang">
-                        <a class="linkser" href="http://share.bb4u.net">الشير<i class="fas fa-cloud-download-alt"
-                                style="margin-right: 5px;"></i></a>
-                        <a class="linkser" href="http://10.6.6.17">السينما<i class="fas fa-film"
-                                style="margin-right: 5px;"></i></a>
-                        <a class="linkser" href="http://10.6.6.17:6322">التلفاز<i class="fas fa-tv"
-                                style="margin-right: 5px;"></i></a>
+                        <a class="linkser" href="http://share.bb4u.net"><span class="lintxt">الشير</span><i
+                                class="fas fa-cloud-download-alt" style="margin-right: 5px;"></i></a>
+                        <a class="linkser" href="http://10.6.6.17"><span class="lintxt">السينما</span><i
+                                class="fas fa-film" style="margin-right: 5px;"></i></a>
+                        <a class="linkser" href="http://10.6.6.17:6322"><span class="lintxt">التلفاز</span><i
+                                class="fas fa-tv" style="margin-right: 5px;"></i></a>
+                        <a class="linkser" href="javascript:void(0)"><span class="lintxt" onclick="gotoBottom()">حول</span><i onclick="gotoBottom()"
+                                class="fas fa-exclamation-circle" style="margin-right: 5px;"></i></a>
                     </div>
 
                 </div>
@@ -213,7 +214,6 @@ Purchase:
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 
                 </ol>
 
@@ -225,19 +225,17 @@ Purchase:
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12">
                                         <div id="msBannerImg" class="ms_banner_img">
-                                            <img src="/assets/images/s1.png" alt="" class=""
+                                            <img src="/assets/images/c1.png" alt="" class="sim"
                                                 style="margin-top: 0; border-radius: 10px; width: 100%; height: 100%; object-fit: cover;">
                                         </div>
                                         <div id="msBannerText" class="ms_banner_text">
-                                            <h1 id="mName" style="visibility: hidden;">استمتع بأفضل تجربة سينما</h1>
+
 
                                             <div style="cursor: default !important; text-decoration: none !important">
                                                 <p id="mDesc" style="visibility: hidden;">Dream your moments, Until I
                                                     Met You, Gimme Some Courage,
-                                                    Dark Alley, One More Of A Stranger, Endless<br> Things, The
-                                                    Heartbeat Stops, Walking Promises, Desired Games<br>Dream your
-                                                    moments, Until I Met You, Gimme Some Courage, Dark Alley, One More
-                                                    Of A Stranger, Endless.</p>
+                                                    Dark Alley, One More Of A Stranger, Endless<br> Things...
+                                                </p>
                                             </div>
 
                                         </div>
@@ -254,19 +252,17 @@ Purchase:
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12">
                                         <div id="msBannerImg" class="ms_banner_img">
-                                            <img src="/assets/images/s2.png" alt="" class=""
+                                            <img src="/assets/images/c2.png" alt="" class="sim"
                                                 style="margin-top: 0; border-radius: 10px; width: 100%; height: 100%; object-fit: cover;">
                                         </div>
                                         <div id="msBannerText" class="ms_banner_text">
-                                            <h1 id="mName" style="visibility: hidden;">حمل احدث الالعاب </h1>
+
 
                                             <div style="cursor: default !important; text-decoration: none !important">
                                                 <p id="mDesc" style="visibility: hidden;">Dream your moments, Until I
                                                     Met You, Gimme Some Courage,
-                                                    Dark Alley, One More Of A Stranger, Endless<br> Things, The
-                                                    Heartbeat Stops, Walking Promises, Desired Games<br>Dream your
-                                                    moments, Until I Met You, Gimme Some Courage, Dark Alley, One More
-                                                    Of A Stranger, Endless.</p>
+                                                    Dark Alley, One More Of A Stranger, Endless<br> Things...
+                                                </p>
                                             </div>
 
                                         </div>
@@ -283,19 +279,17 @@ Purchase:
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12">
                                         <div id="msBannerImg" class="ms_banner_img">
-                                            <img src="/assets/images/s3.png" alt="" class=""
+                                            <img src="/assets/images/c3.png" alt="" class="sim"
                                                 style="margin-top: 0; border-radius: 10px; width: 100%; height: 100%; object-fit: cover;">
                                         </div>
                                         <div id="msBannerText" class="ms_banner_text">
-                                            <h1 id="mName" style="visibility: hidden;">حمل احدث الالعاب </h1>
+
 
                                             <div style="cursor: default !important; text-decoration: none !important">
                                                 <p id="mDesc" style="visibility: hidden;">Dream your moments, Until I
                                                     Met You, Gimme Some Courage,
-                                                    Dark Alley, One More Of A Stranger, Endless<br> Things, The
-                                                    Heartbeat Stops, Walking Promises, Desired Games<br>Dream your
-                                                    moments, Until I Met You, Gimme Some Courage, Dark Alley, One More
-                                                    Of A Stranger, Endless.</p>
+                                                    Dark Alley, One More Of A Stranger, Endless<br> Things...
+                                                </p>
                                             </div>
 
                                         </div>
@@ -306,34 +300,7 @@ Purchase:
 
                     </div>
 
-                    <div class="carousel-item ">
-                        <div class="ms-banner">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12">
-                                        <div id="msBannerImg" class="ms_banner_img">
-                                            <img src="/assets/images/s4.png" alt="" class=""
-                                                style="margin-top: 0; border-radius: 10px; width: 100%; height: 100%; object-fit: cover;">
-                                        </div>
-                                        <div id="msBannerText" class="ms_banner_text">
-                                            <h1 id="mName" style="visibility: hidden;">حمل احدث الالعاب </h1>
 
-                                            <div style="cursor: default !important; text-decoration: none !important">
-                                                <p id="mDesc" style="visibility: hidden;">Dream your moments, Until I
-                                                    Met You, Gimme Some Courage,
-                                                    Dark Alley, One More Of A Stranger, Endless<br> Things, The
-                                                    Heartbeat Stops, Walking Promises, Desired Games<br>Dream your
-                                                    moments, Until I Met You, Gimme Some Courage, Dark Alley, One More
-                                                    Of A Stranger, Endless.</p>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
 
 
 
@@ -354,7 +321,7 @@ Purchase:
             </div>
 
 
-            <br><br>
+            <br>
             <!--Slider-->
 
             <br>
@@ -568,26 +535,26 @@ Purchase:
             <div class="swiper-container" id="swiper-containers">
                 <div class="swiper-wrapper">
                     @foreach ($share as $item)
-                        <div class="swiper-slide cur swiper-slide-active swp"
-                            onclick="window.location.href = 'http://share.bb4u.net/file/{{ $item->userid }}/{{ $item->filehash }}'">
-                            <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <div class="staticImg"
-                                        style="width:100% !important; height: 300px !important;background-image: url({{ $item->Avatar }});">
-                                    </div>
-                                    <div class="ms_main_overlay">
-                                        <div class="ms_box_overlay"></div>
-                                        <div class="ms_play_icon">
-                                            <i class="fas fa-external-link-alt linkex"></i>
-                                        </div>
+                    <div class="swiper-slide cur swiper-slide-active swp"
+                        onclick="window.location.href = 'http://share.bb4u.net/file/{{ $item->userid }}/{{ $item->filehash }}'">
+                        <div class="ms_rcnt_box">
+                            <div class="ms_rcnt_box_img">
+                                <div class="staticImg"
+                                    style="width:100% !important; height: 300px !important;background-image: url({{ $item->Avatar }});">
+                                </div>
+                                <div class="ms_main_overlay">
+                                    <div class="ms_box_overlay"></div>
+                                    <div class="ms_play_icon">
+                                        <i class="fas fa-external-link-alt linkex"></i>
                                     </div>
                                 </div>
-
-
-
-
                             </div>
+
+
+
+
                         </div>
+                    </div>
                     @endforeach
 
 
@@ -600,41 +567,41 @@ Purchase:
             <!--Check if search is set-->
             @if (isset($search))
             <br><br>
-                <div class="ms_heading">
-                    <p class="tit" id="tit"><span class="titli">|</span>نتائج بحث مركز التحميل</p>
-                    <span id="viewAll" class="veiw_all"><a href="http://share.bb4u.net">عرض المزيد</a></span>
-                </div>
+            <div class="ms_heading">
+                <p class="tit" id="tit"><span class="titli">|</span>نتائج بحث مركز التحميل</p>
+                <span id="viewAll" class="veiw_all"><a href="http://share.bb4u.net">عرض المزيد</a></span>
+            </div>
 
-                <div class="swiper-container" id="swiper-containerss">
-                    <div class="swiper-wrapper">
-                        @foreach ($search as $item)
-                            <div class="swiper-slide cur swiper-slide-active swp"
-                                onclick="window.location.href = 'http://share.bb4u.net/file/{{ $item->userid }}/{{ $item->filehash }}'">
-                                <div class="ms_rcnt_box">
-                                    <div class="ms_rcnt_box_img">
-                                        <div class="staticImg"
-                                            style="width:100% !important; height: 300px !important;background-image: url({{ $item->Avatar }});">
-                                        </div>
-                                        <div class="ms_main_overlay">
-                                            <div class="ms_box_overlay"></div>
-                                            <div class="ms_play_icon">
-                                                <i class="fas fa-external-link-alt linkex"></i>
-                                            </div>
-                                        </div>
+            <div class="swiper-container" id="swiper-containerss">
+                <div class="swiper-wrapper">
+                    @foreach ($search as $item)
+                    <div class="swiper-slide cur swiper-slide-active swp"
+                        onclick="window.location.href = 'http://share.bb4u.net/file/{{ $item->userid }}/{{ $item->filehash }}'">
+                        <div class="ms_rcnt_box">
+                            <div class="ms_rcnt_box_img">
+                                <div class="staticImg"
+                                    style="width:100% !important; height: 300px !important;background-image: url({{ $item->Avatar }});">
+                                </div>
+                                <div class="ms_main_overlay">
+                                    <div class="ms_box_overlay"></div>
+                                    <div class="ms_play_icon">
+                                        <i class="fas fa-external-link-alt linkex"></i>
                                     </div>
-
-
-
-
                                 </div>
                             </div>
-                        @endforeach
 
 
 
 
+                        </div>
                     </div>
+                    @endforeach
+
+
+
+
                 </div>
+            </div>
             @endif
 
         </div>
@@ -647,8 +614,17 @@ Purchase:
 
 
 
-
-
+    <br><br><br>
+    <div id="about">
+        <p class="shatxt" style="color: #F10E01;">SHA100</p>
+        <p class="titde" style="width: 80%; text-align: center; margin: auto; color: #d1d1d1;">
+            لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات
+            المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة
+            مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف.
+            خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد
+            الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت"
+        </p>
+    </div>
 
 
 
@@ -771,7 +747,10 @@ Purchase:
 
 
 
-
+        function about() {
+            var element = document.getElementById(id);
+            element.scrollTop = element.scrollHeight - element.clientHeight;
+        }
 
 
 
@@ -829,7 +808,7 @@ Purchase:
                             <a href="#">clear all</a>
                             <a href="#">cancel</a>
                         </div>
-                    </div>
+                    </div>.
                 </div>
             </div>
         </div>
@@ -906,7 +885,7 @@ Purchase:
 
 
     <script>
-        jQuery(document).ready(function() {
+        jQuery(document).ready(function () {
             //initialize swiper when document ready
             var mySwiper = new Swiper('#swiper-container', {
                 slidesPerView: 8,
@@ -964,7 +943,7 @@ Purchase:
 
 
 
-        jQuery(document).ready(function() {
+        jQuery(document).ready(function () {
             //initialize swiper when document ready
             var mySwiper = new Swiper('#swiper-containers', {
                 slidesPerView: 8,
@@ -1022,7 +1001,7 @@ Purchase:
 
 
 
-        jQuery(document).ready(function() {
+        jQuery(document).ready(function () {
             //initialize swiper when document ready
             var mySwiper = new Swiper('#swiper-containerss', {
                 slidesPerView: 8,
@@ -1079,6 +1058,13 @@ Purchase:
     </script>
 
 
+    <script>
+        function gotoBottom() {
+            console.log("GG")
+            var element = document.getElementById("about");
+            element.scrollTop = element.scrollHeight - element.clientHeight;
+        }
+    </script>
 </body>
 
 </html>
