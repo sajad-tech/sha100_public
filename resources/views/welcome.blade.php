@@ -179,30 +179,8 @@ Purchase:
 
                 <div class="ms_top_left">
                     <a href="/">
-                        <img src="/assets/images/logo.svg" class="logoo" style="float: right;">
+                        <img src="/assets/images/logo.svg" class="logoo" style="display: block; margin-left: auto; margin-right: auto; zoom: 1.2;">
                     </a>
-
-                    <div id="topSearch" class="ms_top_search d-flex" style="float: right;">
-
-                        <input id="searchBox" type="text" class="form-control" placeholder="البحث">
-                        <span class="search_icon">
-                            <img src="/assets/images/svg/search.svg" alt="">
-                        </span>
-                    </div>
-                </div>
-
-                <div id="logReg" class="ms_top_right">
-                    <div class="ms_top_lang">
-                        <a class="linkser" href="http://share.bb4u.net"><span class="lintxt">الشير</span><i
-                                class="fas fa-cloud-download-alt" style="margin-right: 5px;"></i></a>
-                        <a class="linkser" href="http://10.6.6.17"><span class="lintxt">السينما</span><i
-                                class="fas fa-film" style="margin-right: 5px;"></i></a>
-                        <a class="linkser" href="http://10.6.6.17:6322"><span class="lintxt">التلفاز</span><i
-                                class="fas fa-tv" style="margin-right: 5px;"></i></a>
-                        <a class="linkser" href="javascript:void(0)"><span class="lintxt" onclick="gotoBottom()">حول</span><i onclick="gotoBottom()"
-                                class="fas fa-exclamation-circle" style="margin-right: 5px;"></i></a>
-                    </div>
-
                 </div>
 
             </div>
@@ -301,10 +279,6 @@ Purchase:
                     </div>
 
 
-
-
-
-
                 </div>
 
 
@@ -322,287 +296,7 @@ Purchase:
 
 
             <br>
-            <!--Slider-->
 
-            <br>
-            <div class="sitems">
-
-                <div class="sitem" onclick="window.location.href = 'http://share.bb4u.net'">
-                    <img class="serico" src="/assets/images/svg/bbshare.svg">
-                    <p class="tit">الشير</p>
-                    <p class="titde"> خدمة مشاركة الملفات </p>
-                </div>
-
-                <div class="sitem" onclick="window.location.href = 'http://10.6.6.17'">
-                    <img class="serico" src="/assets/images/svg/bbmed.svg">
-                    <p class="tit">السينما</p>
-                    <p class="titde"> اكبر محطة افلام ومسلسلات </p>
-                </div>
-
-                <div class="sitem" onclick="window.location.href = 'http://10.6.6.17:6322'">
-                    <img class="serico" src="/assets/images/svg/bbtv.svg">
-                    <p class="tit">التلفاز</p>
-                    <p class="titde"> خدمة التلفاز </p>
-                </div>
-            </div>
-            <br><br>
-            <div class="ms_heading">
-                <p class="tit" id="tit"><span class="titli">|</span> احدث الافلام والمسلسلات</p>
-                <span id="viewAll" class="veiw_all"><a href="http://10.6.6.17">عرض المزيد</a></span>
-            </div>
-
-            <div class="swiper-container" id="swiper-container">
-                <div class="swiper-wrapper">
-
-
-                    <div class="swiper-slide cur swiper-slide-active swp" onclick="reDirect()">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url(/source/1.jpg);">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide cur swiper-slide-active swp" onclick="reDirect()">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url(/source/6.jpg);">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide cur swiper-slide-active swp" onclick="reDirect()">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url(/source/3.jpg);">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide cur swiper-slide-active swp" onclick="reDirect()">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url(/source/4.jpg);">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide cur swiper-slide-active swp" onclick="reDirect()">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url(/source/5.jpg);">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide cur swiper-slide-active swp" onclick="reDirect()">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url(/source/6.jpg);">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide cur swiper-slide-active swp" onclick="reDirect()">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url(/source/7.jpg);">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide cur swiper-slide-active swp" onclick="reDirect()">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url(/source/8.jpg);">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-
-
-
-
-            <br><br>
-            <!--Slider-->
-
-            <div class="ms_heading">
-                <p class="tit" id="tit"><span class="titli">|</span> احدث الالعاب والبرامج</p>
-                <span id="viewAll" class="veiw_all"><a href="http://share.bb4u.net">عرض المزيد</a></span>
-            </div>
-
-            <div class="swiper-container" id="swiper-containers">
-                <div class="swiper-wrapper">
-                    @foreach ($share as $item)
-                    <div class="swiper-slide cur swiper-slide-active swp"
-                        onclick="window.location.href = 'http://share.bb4u.net/file/{{ $item->userid }}/{{ $item->filehash }}'">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url({{ $item->Avatar }});">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-                    @endforeach
-
-
-
-
-                </div>
-            </div>
-
-
-            <!--Check if search is set-->
-            @if (isset($search))
-            <br><br>
-            <div class="ms_heading">
-                <p class="tit" id="tit"><span class="titli">|</span>نتائج بحث مركز التحميل</p>
-                <span id="viewAll" class="veiw_all"><a href="http://share.bb4u.net">عرض المزيد</a></span>
-            </div>
-
-            <div class="swiper-container" id="swiper-containerss">
-                <div class="swiper-wrapper">
-                    @foreach ($search as $item)
-                    <div class="swiper-slide cur swiper-slide-active swp"
-                        onclick="window.location.href = 'http://share.bb4u.net/file/{{ $item->userid }}/{{ $item->filehash }}'">
-                        <div class="ms_rcnt_box">
-                            <div class="ms_rcnt_box_img">
-                                <div class="staticImg"
-                                    style="width:100% !important; height: 300px !important;background-image: url({{ $item->Avatar }});">
-                                </div>
-                                <div class="ms_main_overlay">
-                                    <div class="ms_box_overlay"></div>
-                                    <div class="ms_play_icon">
-                                        <i class="fas fa-external-link-alt linkex"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-                    @endforeach
-
-
-
-
-                </div>
-            </div>
-            @endif
 
         </div>
 
@@ -616,13 +310,34 @@ Purchase:
 
     <br><br><br>
     <div id="about">
-        <p class="shatxt" style="color: #F10E01;">SHA100</p>
-        <p class="titde" style="width: 80%; text-align: center; margin: auto; color: #d1d1d1;">
+        <p class="shatxt" style="color: #ff3d33;">SHA100</p>
+        <p class="titde" style="width: 60%; text-align: center; margin: auto; color: #d1d1d1;">
             لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات
             المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة
             مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف.
             خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد
             الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت"
+            لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات
+            المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة
+            مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف.
+            خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد
+            الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت"
+        </p>
+    </div>
+    <br><br><br>
+
+    <div id="about" style="width: 60%; text-align: center; margin: auto;">
+        <p class="shatxt" style="color: #ff3d33;">تواصل معنا </p>
+        <p class="titde" style="color: #d1d1d1;">
+            <br>
+
+            <p class="tit" style="text-align: start !important;"> ألايميل </p>
+            <input id="imgTxt" type="email" placeholder="someone@example.com" class="form-control">
+            <br>
+            <p class="tit" style="text-align: start !important;"> الرسالة </p>
+            <textarea id="Description" style="height: 100px;" rows="4" maxlength="1000" placeholder="" class="form-control"></textarea>
+            
+            
         </p>
     </div>
 
@@ -745,6 +460,9 @@ Purchase:
 
 
 
+        function openlink(e){
+            window.open(e, '_blank');
+        }
 
 
         function about() {
@@ -855,6 +573,7 @@ Purchase:
 
 
 
+    
     <br><br><br>
     <div class="mfooter">
         <p style="text-align: center;">© 2021 SHA100</p>

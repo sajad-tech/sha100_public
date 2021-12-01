@@ -457,12 +457,12 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .mfooter{
-	background-color: #ff4847;
+
     position: absolute;
     left: 0;
     right: 0;
     margin-bottom: 0;
-    color: white;
+    color: rgb(182, 182, 182);
     font-weight: unset;
     font-size: 16px;
 	direction: ltr;
