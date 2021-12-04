@@ -334,10 +334,16 @@ Purchase:
             <p class="tit" style="text-align: start !important;"> ألايميل </p>
             <input id="imgTxt" type="email" placeholder="someone@example.com" class="form-control">
             <br>
+            <p class="tit" style="text-align: start !important;"> الاسم </p>
+            <input id="imgTxt" type="email" placeholder="" class="form-control">
+            <br>
             <p class="tit" style="text-align: start !important;"> الرسالة </p>
             <textarea id="Description" style="height: 100px;" rows="4" maxlength="1000" placeholder="" class="form-control"></textarea>
-            
-            
+            <br>
+            <div class="ms_upload_btn">
+                <a href="#" class="ms_btn" >ارسال</a>
+                
+            </div>
         </p>
     </div>
 
