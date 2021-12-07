@@ -151,12 +151,12 @@ Purchase:
 
     /* Handle */
     ::-webkit-scrollbar-thumb {
-        background: #ff4847;
+        background: #ff6f00;
     }
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-        background: #ff4847;
+        background: #ff6f00;
     }
 </style>
 
@@ -179,9 +179,22 @@ Purchase:
 
                 <div class="ms_top_left">
                     <a href="/">
-                        <img src="/assets/images/logo.svg" class="logoo" style="display: block; margin-left: auto; margin-right: auto; zoom: 1.2;">
+                        <img src="/assets/images/logo.svg" class="logoo"
+                            style="display: block; margin-left: auto; margin-right: auto; zoom: 1.2;">
                     </a>
                 </div>
+                <div style="
+                        width: 100%;
+                        height: 3px;
+                        background: -webkit-radial-gradient(50% 40%, ellipse closest-side, #ff6f00, rgba(255, 42, 112, 0) 125%);
+                        position: absolute;
+                        padding: 0;
+                        margin-top: 0.7%;
+                        z-index: 999;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                "></div>
 
             </div>
 
@@ -310,8 +323,8 @@ Purchase:
 
     <br><br><br>
     <div id="about">
-        <p class="shatxt" style="color: #ff3d33;">SHA100</p>
-        <p class="titde" style="width: 60%; text-align: center; margin: auto; color: #d1d1d1;">
+        <h2 class="shatxt" style="color: #ff6f00;">من نحن</h2>
+        <p class="titde" style="width: 60%; text-align: center; margin: auto; color: #d1d1d1; font-size: 20px; letter-spacing: 1px;">
             لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات
             المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة
             مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف.
@@ -319,31 +332,29 @@ Purchase:
             الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت"
             لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات
             المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة
-            مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف.
-            خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد
-            الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت"
         </p>
     </div>
     <br><br><br>
 
     <div id="about" style="width: 60%; text-align: center; margin: auto;">
-        <p class="shatxt" style="color: #ff3d33;">تواصل معنا </p>
+        <p class="shatxt" style="color: #ff6f00;">تواصل معنا </p>
         <p class="titde" style="color: #d1d1d1;">
             <br>
 
-            <p class="tit" style="text-align: start !important;"> ألايميل </p>
-            <input id="imgTxt" type="email" placeholder="someone@example.com" class="form-control">
-            <br>
-            <p class="tit" style="text-align: start !important;"> الاسم </p>
-            <input id="imgTxt" type="email" placeholder="" class="form-control">
-            <br>
-            <p class="tit" style="text-align: start !important;"> الرسالة </p>
-            <textarea id="Description" style="height: 100px;" rows="4" maxlength="1000" placeholder="" class="form-control"></textarea>
-            <br>
-            <div class="ms_upload_btn">
-                <a href="#" class="ms_btn" >ارسال</a>
-                
-            </div>
+        <p class="tit" style="text-align: start !important;"> ألايميل </p>
+        <input id="imgTxt" type="email" placeholder="someone@example.com" class="form-control">
+        <br>
+        <p class="tit" style="text-align: start !important;"> الاسم </p>
+        <input id="imgTxt" type="email" placeholder="" class="form-control">
+        <br>
+        <p class="tit" style="text-align: start !important;"> الرسالة </p>
+        <textarea id="Description" style="height: 100px;" rows="4" maxlength="1000" placeholder=""
+            class="form-control"></textarea>
+        <br>
+        <div class="ms_upload_btn">
+            <a href="#" class="ms_btn">ارسال</a>
+
+        </div>
         </p>
     </div>
 
@@ -466,7 +477,7 @@ Purchase:
 
 
 
-        function openlink(e){
+        function openlink(e) {
             window.open(e, '_blank');
         }
 
@@ -579,7 +590,7 @@ Purchase:
 
 
 
-    
+
     <br><br><br>
     <div class="mfooter">
         <p style="text-align: center;">© 2021 SHA100</p>
