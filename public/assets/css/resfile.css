@@ -1,0 +1,29 @@
+
+.res{
+    zoom: 1;
+}
+
+@media (min-width: 2000px) {
+    .res{
+        zoom: 1.2;
+    }
+}
+
+@media (min-width: 3000px) {
+    .res{
+        zoom: 1.5;
+    }
+}
+
+@media (min-width: 4000px) {
+    .res{
+        zoom: 2;
+    }
+}
+
+@media (min-width: 5000px) {
+    .res{
+        zoom: 3;
+    }
+}
+

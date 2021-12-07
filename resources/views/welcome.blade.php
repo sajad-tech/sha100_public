@@ -40,6 +40,8 @@ Purchase:
 
     <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.css"> -->
 
+    <link href="{{asset('assets/css/resfile.css')}}" rel="stylesheet">
+
 </head>
 
 
@@ -160,7 +162,7 @@ Purchase:
     }
 </style>
 
-<body style="direction: rtl;">
+<body style="direction: rtl;" class="res">
 
     <!----Loader Start---->
     <!-- <div class="ms_loader">
@@ -325,13 +327,7 @@ Purchase:
     <div id="about">
         <h2 class="shatxt" style="color: #ff6f00;">من نحن</h2>
         <p class="titde" style="width: 60%; text-align: center; margin: auto; color: #d1d1d1; font-size: 20px; letter-spacing: 1px;">
-            لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات
-            المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة
-            مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف.
-            خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد
-            الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت"
-            لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات
-            المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة
+            شامية- أحدث منصة ترفيهية منوعة تجد فيها كل ما ترغب بمشاهدته واكثر من احدث الافلام العالمية الى اخر المسلسلات العربية والاجنبية من شاشات السينما مباشرة لشاشتك و أحدث اصدارات الالعاب وعلى مختلف المنصات من المصادر الرسمية والموثوقة اضافة الى أهم العروض المباشرة مع خدمة البث الحي والمباشر لمختلف القنوات العربية والعالمية
         </p>
     </div>
     <br><br><br>
@@ -487,6 +483,10 @@ Purchase:
             element.scrollTop = element.scrollHeight - element.clientHeight;
         }
 
+
+        if(window.innerWidth >=800 && window.innerWidth <=1400){
+            document.getElementById('body').style.zoom="0.7";
+        }
 
 
         function changelang(e) {
