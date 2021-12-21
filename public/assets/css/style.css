@@ -475,9 +475,10 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .shatxt{
-    font-size: 24px;
+    font-size: 32px;
     color: white;
     text-align: center;
+    margin-bottom: 8px;
     letter-spacing: 2px;
 }
 
